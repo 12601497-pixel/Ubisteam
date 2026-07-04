@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Content", sans-serif;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body {
+    background: #3a3a3a; /* Fundo cinza escuro degradê das laterais */
+    background: radial-gradient(circle, #4a4a4a 0%, #1c1c1c 100%);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Caixa central do painel */
+.container-cadastro {
+    width: 100%;
+    max-width: 900px; /* Largura proporcional idêntica à foto */
+    background-color: #492020; /* Fundo vinho/marrom escuro do formulário */
+    border-radius: 4px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+/* Banner superior 'Criar Conta' */
+.topo-banner {
+    background: -webkit-linear-gradient(#cf3636, #7a1d1d);
+    background: linear-gradient(#cf3636, #7a1d1d);
+    border-bottom: 2px solid #571414;
+    padding: 15px;
+    text-align: center;
+}
+
+.topo-banner h1 {
+    color: #ffffff;
+    font-size: 40px;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+/* Corpo interno do formulário */
+.formulario-corpo {
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* Espaço uniforme entre as linhas */
+}
+
+/* Subtítulo informativo */
+.legenda-sub {
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+
+/* Componentes de Grid para organizar campos paralelos */
+.linha-dupla {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px; /* Afastamento horizontal exato entre as duas caixas */
+}
+
+/* Grupos de Labels e Inputs */
+.campo-grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.campo-grupo label {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.campo-grupo input {
+    background-color: #160d0d; /* Fundo quase preto das caixas de input */
+    border: 1px solid #110808;
+    color: #ffffff;
+    padding: 14px;
+    font-size: 16px;
+    outline: none;
+    transition: background-color 0.2s;
+}
+
+.campo-grupo input:focus {
+    background-color: #241515; /* Efeito leve ao selecionar o input */
+}
+
+/* Área do termo de uso / checkbox */
+.campo-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.campo-checkbox input {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.campo-checkbox label {
+    color: #ffffff;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+/* Botão Vermelho de Envio */
+.btn-finalizar {
+    background-color: #ff0000; /* Vermelho vivo igual ao da imagem */
+    color: #ffffff;
+    border: 1px solid #000000;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: filter 0.2s;
+    margin-top: 10px;
+}
+
+.btn-finalizar:hover {
+    filter: brightness(1.1); /* Brilho sutil ao passar o mouse */
+}
+
+/* Link inferior da página */
+.link-login {
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0 0 0;
+}
+
+.link-login a {
+    color: #ff2e2e; /* Link destacado em vermelho */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-login a:hover {
+    text-decoration: underline;
+}
+

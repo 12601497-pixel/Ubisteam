@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Content", sans-serif;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body {
+    list-style: none;
+}
+
+.macu_lindo {
+    list-style: none;
+    display: flex;
+}
+
+#menu {
+    background-image: linear-gradient(to bottom, #000000, #2E2E2E, #5D5D5D);
+    width: 100%;
+    height: 70px;
+    z-index: -9;
+}
+
+#Ubis {
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+    margin-left: 8%;
+}
+
+#red {
+    background: -webkit-linear-gradient(#B14B4B, #E46060, #7E3535);
+    background-clip: text;
+    color: transparent;
+}
+
+#pesquisa {
+    background-color: linear-gradient(#B14B4B, #E46060, #7E3535);
+    width: 368px;
+    height: 32px;
+    z-index: 99;
+    margin-left: 47%;
+    margin-top: 20px;
+}
+
+#pesquisa input {
+    background-image: linear-gradient(#B14B4B, #E46060, #7E3535);
+    width: 368px;
+    border-radius: 10px;
+}
+
+input::placeholder {
+    color: #ffffff;
+}
+
+#bola_esquerda {
+    border-radius: 100%;
+    background-image: linear-gradient(#B14B4B, #E46060, #7E3535);
+    width: 41px;
+    height: 41px;
+    margin-right: 15px;
+    margin-left: 3%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#bola_direita {
+    border-radius: 100%;
+    background-image: linear-gradient(#B14B4B, #E46060, #7E3535);
+    width: 41px;
+    height: 41px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#lupa {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 27px;
+    right: 30px;
+    z-index: 999;
+}
+
+.Minhas_Bolas {
+    margin-top: 6px;
+}
+
+/*---------------------- Fundo Preto ------------------------*/
+
+#abaixo-menu {
+    height: 2200px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #5D5D5D, #2E2E2E, #000000);
+    z-index: -9;
+}
+
+
+/*---------------------- Parte de baixo do Menu ------------------------*/
+
+#forza {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+}
+
+#novos {
+    width: 1144px;
+    height: 103px;
+    margin-left: 20%;
+    background-image: linear-gradient(to bottom, #000000, #2E2E2E, #5D5D5D, #000000);
+}
+
+#jogos {
+    font-size: 64px;
+    font-family: "Content", sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+/*---------------------- 3 Quadrados de Jogos ------------------------*/
+
+#q1 {
+    width: 250px;
+    height: 363px;
+    background-image: linear-gradient(to bottom, #000000, #2E2E2E, #5D5D5D, #000000);
+    margin-left: 20%;
+    margin-top: 1.8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+}
+
+#gta6 {
+    width: 229px;
+    height: 229px;
+    top: -20px;
+}
+
+.atg {
+    font-size: 25px;
+    color: white;
+}
+
+#q2 {
+    width: 500px;
+    height: 393px;
+    background-image: linear-gradient(to bottom, #000000, #2E2E2E, #5D5D5D, #000000);
+    margin-left: 37%;
+    margin-top: -19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    clip-path: polygon(1% 0%, 99% 1%, 99% 83%, 52% 100%, 1% 85%);
+}
+
+.Elder {
+    font-size: 32px;
+    color: white;
+}
+
+#q3 {
+    width: 250px;
+    height: 363px;
+    background-image: linear-gradient(to bottom, #000000, #2E2E2E, #5D5D5D, #000000);
+    margin-left: 67%;
+    margin-top: -20.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    clip-path: polygon(1% 0%, 99% 1%, 100% 77%, 50% 100%, 0% 78%);
+}
+
+.Sub {
+    color: white;
+    font-size: 25px;
+}
+
+#quadrado_com_jogos {
+    width: 1750px;
+    height: 375px;
+    background-image: linear-gradient(to bottom, #000000, #2E2E2E, #5D5D5D, #000000);
+    margin-left: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#quadrado_em_cima_de_outro_quadrado {
+    width: 30%;
+    height: 50px;
+    background-color: #000000;
+    clip-path: polygon(5% 0%, 95% 0%, 100% 100%, 0% 100%);
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+#destqe {
+    color: white;
+
+}
+
+.imgs {
+    object-fit: cover;
+    margin: auto;
+    margin-top: 37px;
+}
+
+/*---------------------- Final do site ------------------------*/
+
+#Final {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+
+#Titulo_ubis {
+    font-size: 22px;
+    font-family: "Content", sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.subtexto {
+    font-size: 15px;
+    font-family: "Content", sans-serif;
+    color: white;
+}
+
+.Sub_titulos {
+    font-size: 22px;
+    font-family: "Content", sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+#t3img {
+    margin-top: 20px;
+    margin-left: 0px;
+    display: flex;
+    gap: 65px;
+
+}

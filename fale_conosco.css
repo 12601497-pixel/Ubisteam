@@ -1,0 +1,337 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Content", sans-serif;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body {
+    list-style: none;
+}
+
+/*---------------------- Essencial para não quebrar o Menu ------------------------*/
+
+.macu_lindo {
+    list-style: none;
+    display: flex;
+}
+
+#pesquisar {
+    background-color: linear-gradient(#B14B4B, #E46060, #7E3535);
+    width: 368px;
+    height: 32px;
+    z-index: 99;
+
+}
+
+#pesquisa input {
+    background-image: linear-gradient(#B14B4B, #E46060, #7E3535);
+    width: 368px;
+    border-radius: 10px;
+}
+
+/*---------------------- Menu la em cima ------------------------*/
+
+#menu {
+    background-image: linear-gradient(to bottom, #000000, #2E2E2E, #5D5D5D);
+    width: 100%;
+    height: 70px;
+    z-index: -9;
+}
+
+#Ubis {
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+    margin-left: 8%;
+}
+
+#red {
+    background: -webkit-linear-gradient(#B14B4B, #E46060, #7E3535);
+    background-clip: text;
+    color: transparent;
+}
+
+#pesquisa {
+    background-color: linear-gradient(#B14B4B, #E46060, #7E3535);
+    width: 368px;
+    height: 32px;
+    z-index: 99;
+    margin-left: 47%;
+    margin-top: 20px;
+}
+
+#pesquisa input {
+    background-image: linear-gradient(#B14B4B, #E46060, #7E3535);
+    width: 368px;
+    border-radius: 10px;
+}
+
+input::placeholder {
+    color: #ffffff;
+}
+
+#bola_esquerda {
+    border-radius: 100%;
+    background-image: linear-gradient(#B14B4B, #E46060, #7E3535);
+    width: 41px;
+    height: 41px;
+    margin-right: 15px;
+    margin-left: 3%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#bola_direita {
+    border-radius: 100%;
+    background-image: linear-gradient(#B14B4B, #E46060, #7E3535);
+    width: 41px;
+    height: 41px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#lupa {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 27px;
+    right: 30px;
+    z-index: 999;
+}
+
+.Minhas_Bolas {
+    margin-top: 6px;
+}
+
+/*---------------------- Fundo Preto ------------------------*/
+
+#abaixo-menu {
+    height: 2200px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #5D5D5D, #2E2E2E, #000000);
+    z-index: -9;
+    overflow: hidden;
+}
+
+/*---------------------- Fale conosco ------------------------*/
+
+#Fale {
+    width: 1700px;
+    height: 132px;
+    background-image: linear-gradient(#B14B4B, #E46060, #7E3535);
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#conosco {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Content", sans-serif;
+    color: white;
+    margin-top: 35px;
+    margin-left: 50px;
+    stroke: #000000 100%;
+}
+
+#Reclame {
+    width: 1700px;
+    height: 1177px;
+    background-image: linear-gradient(#7E0404, #AD0505);
+    display: grid;
+    margin: auto;
+    grid-template-areas: "left mid right";
+    gap: 25px;
+}
+
+#enviar {
+    font-weight: bold;
+    font-family: "Content", sans-serif;
+    font-size: 48px;
+    color: red;
+    -webkit-text-stroke: 2px #000000;
+    margin-left: 1%;
+    margin-top: 3%;
+}
+
+#campos {
+    font-size: 21px;
+    color: white;
+    font-family: "Content", sans-serif;
+    font-weight: bold;
+    margin-left: 1%;
+
+}
+
+#seu_nome_vagazacri {
+    font-size: 17px;
+    color: white;
+    font-family: "Content", sans-serif;
+    font-weight: bold;
+}
+
+#e-mail {
+    font-size: 17px;
+    color: white;
+    font-family: "Content", sans-serif;
+    font-weight: bold;
+}
+
+#ass {
+    font-size: 17px;
+    color: white;
+    font-family: "Content", sans-serif;
+    font-weight: bold;
+}
+
+#mensgn {
+    font-size: 17px;
+    color: white;
+    font-family: "Content", sans-serif;
+    font-weight: bold;
+}
+
+.input_4 {
+    font-size: 17px;
+    color: white;
+    font-family: "Content", sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 4%;
+}
+
+#margin_left {
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    grid-area: left;
+}
+
+/*---------------------- lado direito ------------------------*/
+
+#margin_right{
+    display: flex;
+    flex-direction: column;
+    grid-area: right;
+}
+
+#direita {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+#suporte {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Content", sans-serif;
+    color: rgb(255, 0, 0);
+    margin-top: 35px;
+    margin-left: 50px;
+    -webkit-text-stroke:#000000 2px;
+}
+
+.strokevermei {font-size: 22px;
+color: red;
+font-family: "Content", sans-serif; 
+-webkit-text-stroke:#000000 1px;
+}
+
+/*---------------------- Input ------------------------*/
+
+input {
+    box-sizing: border-box;
+    width: 506px;
+    height: 70px;
+    padding: 5px;
+    font-size: 16px;
+    background-color: #150D0D;
+    opacity: 63%;
+    color: white;
+    margin-left: 4%;
+}
+
+input:hover {
+    border-color: #ce1e1e;
+}
+
+#input_grande {
+    box-sizing: border-box;
+    width: 506px;
+    height: 180px;
+    padding: 5px;
+    font-size: 16px;
+    background-color: #150D0D;
+    opacity: 63%;
+    color: white;
+}
+
+/*---------------------- Seu Butão ------------------------*/
+
+.button {
+    background-color: red;
+    color: white;
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 5%;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+/*---------------------- Linha transparente ------------------------*/
+
+#linha {
+    width: 2px;
+    height: 1100px;
+    opacity: 20%;
+    grid-area: mid;
+    margin-top: 17%;
+}
+
+/*---------------------- Final do site ------------------------*/
+
+#Final {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+
+#Titulo_ubis {
+    font-size: 22px;
+    font-family: "Content", sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.subtexto {
+    font-size: 15px;
+    font-family: "Content", sans-serif;
+    color: white;
+}
+
+.Sub_titulos {
+    font-size: 22px;
+    font-family: "Content", sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+#t3img {
+    margin-top: 20px;
+    margin-left: 0px;
+    display: flex;
+    gap: 65px;
+
+}

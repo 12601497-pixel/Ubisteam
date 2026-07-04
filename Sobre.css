@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Content", sans-serif;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body {
+    list-style: none;
+}
+
+/*---------------------- Essencial para não quebrar o Menu ------------------------*/
+
+.macu_lindo {
+    list-style: none;
+    display: flex;
+}
+
+#pesquisar {
+    background-color: linear-gradient(#B14B4B, #E46060, #7E3535);
+    width: 368px;
+    height: 32px;
+    z-index: 99;
+
+}
+
+#pesquisa input {
+    background-image: linear-gradient(#B14B4B, #E46060, #7E3535);
+    width: 368px;
+    border-radius: 10px;
+}
+
+/*---------------------- Menu la em cima ------------------------*/
+
+#menu {
+    background-image: linear-gradient(to bottom, #000000, #2E2E2E, #5D5D5D);
+    width: 100%;
+    height: 70px;
+    z-index: -9;
+}
+
+#Ubis {
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+    margin-left: 8%;
+}
+
+#red {
+    background: -webkit-linear-gradient(#B14B4B, #E46060, #7E3535);
+    background-clip: text;
+    color: transparent;
+}
+
+#pesquisa {
+    background-color: linear-gradient(#B14B4B, #E46060, #7E3535);
+    width: 368px;
+    height: 32px;
+    z-index: 99;
+    margin-left: 47%;
+    margin-top: 20px;
+}
+
+#pesquisa input {
+    background-image: linear-gradient(#B14B4B, #E46060, #7E3535);
+    width: 368px;
+    border-radius: 10px;
+}
+
+input::placeholder {
+    color: #ffffff;
+}
+
+#bola_esquerda {
+    border-radius: 100%;
+    background-image: linear-gradient(#B14B4B, #E46060, #7E3535);
+    width: 41px;
+    height: 41px;
+    margin-right: 15px;
+    margin-left: 3%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#bola_direita {
+    border-radius: 100%;
+    background-image: linear-gradient(#B14B4B, #E46060, #7E3535);
+    width: 41px;
+    height: 41px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#lupa {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 27px;
+    right: 30px;
+    z-index: 999;
+}
+
+.Minhas_Bolas {
+    margin-top: 6px;
+}
+
+/*---------------------- Fundo Preto ------------------------*/
+
+#abaixo-menu {
+    height: 1650px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #5D5D5D, #2E2E2E, #000000);
+    z-index: -9;
+    overflow: hidden;
+}
+
+/*---------------------- parte do texto ------------------------*/
+
+#titulo {
+    width: 1700px;
+    height: 132px;
+    background-image: linear-gradient(#B14B4B, #E46060, #7E3535);
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#conosco {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Content", sans-serif;
+    color: white;
+    margin-top: 35px;
+    margin-left: 50px;
+    stroke: #000000 100%;
+    padding-top: -10%;
+}
+
+#texto1 {
+    width: 1700px;
+    height: 900px;
+    background-image: linear-gradient(#7E0404, #AD0505);
+    display: grid;
+    margin: auto;
+    grid-template-areas: "left mid right";
+    gap: 25px;
+}
+
+#quem_somos {
+    color: white;
+    font-size: 25px;
+    padding-left: 5%;
+    margin-top: 50px;
+}
+
+.diferente {
+    font-weight: bold;
+    color: rgb(39, 32, 32);
+    -webkit-text-stroke: rgba(255, 255, 255, 0.733) 1px;
+}
+
+/*---------------------- Final do site ------------------------*/
+
+#Final {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+
+#Titulo_ubis {
+    font-size: 22px;
+    font-family: "Content", sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.subtexto {
+    font-size: 15px;
+    font-family: "Content", sans-serif;
+    color: white;
+}
+
+.Sub_titulos {
+    font-size: 22px;
+    font-family: "Content", sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+#t3img {
+    margin-top: 20px;
+    margin-left: 0px;
+    display: flex;
+    gap: 65px;
+
+}

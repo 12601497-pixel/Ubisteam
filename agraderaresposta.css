@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Content", sans-serif;
+}
+
+body{background-color: rgb(255, 0, 221);
+display: inline-block;
+display: flex;
+}
+
+
+#flex {
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;}
+
+
+#butao {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    
+    
+}
+
+#arigato {
+    font-size: 40px;
+    color: white;
+}
+
+#nao {
+    font-size: 40px;
+    color: white;
+}
