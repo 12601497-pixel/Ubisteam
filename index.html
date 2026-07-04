@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Content:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubisteam</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+
+<body>
+    <main class="container-cadastro">
+        <!-- Banner Superior com Degradê Red -->
+        <header class="topo-banner">
+            <h1>Criar Conta</h1>
+        </header>
+
+        <!-- Formulário de Entrada -->
+        <form class="formulario-corpo">
+            <p class="legenda-sub">Junte-se à nossa comunidade para expandir sua biblioteca sem burocracia.</p>
+
+            <!-- Linha 1: Nome e Sobrenome lado a lado -->
+            <div class="linha-dupla">
+                <div class="campo-grupo">
+                    <label for="nome">Seu Nome:</label>
+                    <input type="text" id="nome" required>
+                </div>
+                <div class="campo-grupo">
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" id="sobrenome" required>
+                </div>
+            </div>
+
+            <!-- Linha 2: Nickname total -->
+            <div class="campo-grupo">
+                <label for="nickname">Nome de Usuario / nickname:</label>
+                <input type="text" id="nickname" required>
+            </div>
+
+            <!-- Linha 3: E-mail total -->
+            <div class="campo-grupo">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required>
+            </div>
+
+            <!-- Linha 4: Senha e Confirmar lado a lado -->
+            <div class="linha-dupla">
+                <div class="campo-grupo">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" required>
+                </div>
+                <div class="campo-grupo">
+                    <label for="conf-senha">Confirmar Senha:</label>
+                    <input type="password" id="conf-senha" required>
+                </div>
+            </div>
+
+            <!-- Caixa de Seleção dos Termos -->
+            <div class="campo-checkbox">
+                <input type="checkbox" id="termos" required>
+                <label for="termos">Li e concordo com os Termos de Uso e as Políticas de Privacidade da Ubisteam.</label>
+            </div>
+
+            <!-- Botão de Finalizar Vermelho -->
+            <a href="principal.html"><button type="submit" class="btn-finalizar">FINALIZAR CADASTRO</button></a>
+
+            <!-- Link inferior para Login -->
+            <p class="link-login">Já possui uma conta? <a href="#">Fazer Login</a></p>
+        </form>
+    </main>
+
+</body>
+</html>
